@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body */
+body {
+  font-family: "raleway", sans-serif;
+  background: #000000;
+}
+
+/*cabecera*/
+header {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+/*contenedor titulo*/
+.contenedor__titulo {
+  margin: 14px 0;
+}
+
+/* título */
+h1 {
+  display: inline-block;
+  text-align: center;
+  font-weight: 500;
+  font-size: 3em;
+  color: #ffffff;
+  margin: 10;
+}
+
+/* imagen principal*/
+.responsive-imagen {
+  width: 100%;
+  height: auto;
+}
+
+/* contenedor de descripcion*/
+.descripcion {
+  padding: 60px 60px;
+  display: flex;
+  justify-content: center;
+}
+
+/* descripcion de la iguana */
+
+.descripcion__iguana {
+  text-align: justify;
+  color: #ffffff;
+  max-width: 475px;
+  max-height: 197px;
+  margin-right: 106px;
+  font-weight: 300;
+}
+
+/*imagen de iguana de la descripcion */
+
+.descripcion__iguana--imagen {
+  max-width: 399px;
+  max-height: 237px;
+}
+
+/*Contenedor de caracteristicas */
+.caracteristicas {
+  background: #1e1a13;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  padding: 74px;
+}
+
+/* caracteristicas*/
+h2 {
+  display: inline-block;
+  text-align: justify;
+  font-weight: 500;
+  font-size: 2em;
+  color: #ffffff;
+}
+/* contenedores de las caracteristicas */
+.contenedor__caracteristicas {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 60px;
+}
+
+/*clases de las caracteristicas */
+.caracteristicas__div {
+  text-align: center;
+  font: "raleway", sans-serif;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: 300;
+}
+
+/*textos de las caracteristicas */
+.caracteristica__texto {
+  font-size: 1.5em;
+  margin: 10px 0;
+  font-weight: 300;
+}
+
+/*section de imagenes de iguanas */
+.imagenes__iguanas {
+  display: flex;
+  justify-content: space-around;
+  margin: 150px 73px;
+}
+
+/*contenedores de imagenes de iguanas */
+.iguanas {
+  margin: 0 8px;
+}
+
+.contenedor__iguanas {
+  display: flex;
+  justify-content: center;
+}
+
+.caracteristica__iguanas img {
+  width: 316px;
+  height: 202px;
+  padding: 0 16px;
+}
+
+/*footer*/
+
+footer {
+  background-color: #1e1a13;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  padding: 39px 0;
+  display: flex;
+}
+
+.pagina__web {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+.pagina__web--link {
+  text-decoration: none;
+  color: #ffffff;
+}
